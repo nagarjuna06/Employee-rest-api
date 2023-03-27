@@ -10,7 +10,7 @@ mongoose.connect(process.env.DB_URL).then(() => console.log("DB Connected!")).ca
 
 app.listen(3000, () => console.log('Server is started'))
 
-app.use('/employee', employeeRoute)
+app.use('/employees', employeeRoute)
 app.get('/', (req, res) => {
-    res.redirect('/employee')
+    res.redirect('/employees')
 })
