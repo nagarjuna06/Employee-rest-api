@@ -1,0 +1,23 @@
+{
+  "name": "employee-records",
+  "version": "1.0.0",
+  "description": "Crud operations on employee records",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js",
+    "dev":"nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Nagarjuna",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "moment-timezone": "^0.5.42",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
