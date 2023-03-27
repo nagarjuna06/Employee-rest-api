@@ -36,6 +36,10 @@ The following endpoints are available in this API:
 
 Returns a list of all employees.
 
+**search with name**: /employees?name=nagarjuna
+
+**search with designation** : /employees?designation=Developer
+
 #### POST /employees
 
 Adds a new employee to the database.
