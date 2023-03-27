@@ -46,6 +46,18 @@ Request Body
 
 ```
 {
+    "name":"Nagarjuna Chenna",
+    "designation":"Frontend Developer",
+    "phone":"9391568082",
+    "email":"chennanagarjuna@gmail.com",
+    "age":23
+}
+```
+
+Return Response Body
+
+```
+{
     "_id": "6420f17baf8d4a137b1ecb1c",
     "name":"Nagarjuna Chenna",
     "designation":"Frontend Developer",
@@ -55,18 +67,6 @@ Request Body
     "createdAt": "27-03-2023  6:59:31 am",
     "updatedAt": "27-03-2023  6:59:31 am",
     "__v": 0
-}
-```
-
-Return Response Body
-
-```
-{
-    "name":"Nagarjuna Chenna",
-    "designation":"Frontend Developer",
-    "phone":"9391568082",
-    "email":"chennanagarjuna@gmail.com",
-    "age":23
 }
 ```
 
